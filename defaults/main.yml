@@ -1,0 +1,7 @@
+---
+lein_version: stable
+lein_download_location: "https://raw.github.com/technomancy/leiningen/{{lein_version}}/bin/lein"
+lein_install_dir: /opt
+lein_bin_dir: /usr/local/bin
+lein_user: lein
+lein_home: /opt/lein
