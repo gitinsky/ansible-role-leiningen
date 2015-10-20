@@ -16,3 +16,6 @@
 
 - name: Move user {{ lein_user }} home if it changed
   user: name={{ lein_user }} move_home=yes
+
+- name: check permissions for lein_home ({{ lein_home }})
+  file: dest={{ lein_home }} owner={{ lein_user }} group={{ lein_user }} recurse=yes
